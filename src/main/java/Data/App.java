@@ -38,7 +38,7 @@ public class App {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		App app = new App("localhost", 27017, "deneme");
+		App app = new App("localhost", 27017, "sample");
 		DBCollection collection = app.getCollection("user");
 		// CRUD operations
 		/*
