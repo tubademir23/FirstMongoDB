@@ -44,34 +44,34 @@ public class App {
 		/*
 		 * @insert
 		 * 
-		 * @app.insert(collection);
+		 * app.insert(collection);
 		 */
 
 		/*
-		 * list all
+		 * @list all
 		 * 
-		 * @app.getAll(collection);
+		 * app.getAll(collection);
 		 */
 		/*
-		 * list with filter System.out.println("filter: ");
+		 * @list with filter System.out.println("filter: ");
 		 * 
-		 * @ final DBParameter param = new DBParameter("name", "albert");
+		 * final DBParameter param = new DBParameter("name", "albert");
 		 * app.getList(collection, param);
 		 */
 		/*
-		 * update
+		 * @update
 		 * 
-		 * @app.update(collection);
+		 * app.update(collection);
 		 */
 		/*
-		 * collection drop
+		 * @collection drop
 		 * 
-		 * @app.drop(collection);
+		 * app.drop(collection);
 		 */
 		/*
-		 * database drop
+		 * @database drop
 		 * 
-		 * @app.dropDB();
+		 * app.dropDB();
 		 */
 	}
 
